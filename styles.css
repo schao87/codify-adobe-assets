@@ -167,5 +167,21 @@
 	margin-top: 19px;
 }
 .prices{
-
+	height: 121px;
+	width: 220px;
+}
+.priceImg{
+	display: block;
+	margin: auto;
+	padding-top: 12px;
+}
+.signupbtn{
+	display: block;
+	margin: 18px 28px;
+	float: left;
+}
+.action{
+	display: block;
+	margin: 37px 29.5px;
+	float: left;
 }

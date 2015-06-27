@@ -1,5 +1,10 @@
+@font-face{
+	font-family: nevis;
+	src: url(nevis-bold.ttf);
+}
 *{
 	margin: 0;
+	font-family: arial;
 }
 .background{
 	width: 925px;
@@ -94,4 +99,73 @@
 	background: url(img/advanced.png);
 	background-repeat: no-repeat;
 	border-radius: 10px 10px 0 0;
+}
+.hosting{
+	width: 245px;
+	font-family: nevis;
+	color: #6ebffb;
+	font-size: 25px;
+	padding-top: 8px;
+	font-weight: 700;
+	text-align: center;
+	text-shadow: 0px 1px 2px rgba(7, 31, 65, 0.75);
+}
+.featuresWrap{
+	width: 245px;
+	height: 635px;
+	position: relative;
+}
+.bigbox{
+	height: 130px;
+	width: 245px;
+}
+.ppm{
+	position: relative;
+	float: left;
+	color: #307ab2;
+	font-size: 20px;
+	font-weight: 400;
+	text-align: center;
+	width: 245px;
+	height: 46px;
+	margin-top: 43px;
+}
+.divider{
+	box-shadow: 0px 1px 0px 0px #184d81;
+	width: 244px;
+	height: 1px;
+	float: left;
+}
+.packagedivider{
+	box-shadow: 0px 1px 0px 0px #184d81;
+	width: 220px;
+	height: 1px;
+	float: left;
+}
+.smallbox{
+	height: 53px;
+	width: 245px;
+	float: left;
+}
+.packagesmallbox{
+	height: 53px;
+	width: 220px;
+	float: left;
+}
+.featuresText{
+	color:  #307ab2;
+	font-size: 15px;
+	font-weight: 400;
+	text-align: center;
+	margin-top: 19px;
+}
+.packageSpecs{
+	color:  white;
+	font-size: 15px;
+	font-weight: 400;
+	text-align: center;
+	margin-top: 19px;
+}
+.prices{
+
 }
